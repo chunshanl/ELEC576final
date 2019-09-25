@@ -2,9 +2,15 @@ import numpy as np
 import scipy.linalg
 from scipy import signal
 
+# from IPython.core.interactiveshell import InteractiveShell
+# InteractiveShell.ast_node_interactivity = "all"
+
 a = np.array([[1., 2., 3.], [4., 5., 6.]])
 print(np.ndim(a))
 print(np.size(a))
+
+# use print for output if the code is run in pycharm
+# no need to add print if it is run in ipython
 np.shape(a)
 a.shape[2 - 1]
 
